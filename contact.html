@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact KenBuild Construction Ltd</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="contact-page">
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTwUVdNcUB8BilxqzD6WUjZV8peMNHj032TDuqX1npmyMJITgjqODDvNg&s" alt="KenBuild Logo">
+      <span>KenBuild</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="menu-toggle" id="menuToggle">☰</div>
+  </nav>
+
+  <!-- Contact Layout -->
+  <section class="contact-layout">
+    <!-- Left Side Image -->
+    <div class="contact-image">
+      <img src="https://images.unsplash.com/photo-1563391017873-6e6beab67fed?w=600&auto=format&fit=crop&q=60" alt="KenBuild Construction Site" />
+    </div>
+
+    <!-- Right Side Form -->
+    <div class="contact-form-section">
+      <h2>Request Information / Quote</h2>
+      <p>Please fill in your details below, and our team will reach out shortly.</p>
+
+      <form id="requestForm" class="request-form">
+        <div class="form-row">
+          <input type="text" name="firstName" placeholder="First Name" required />
+          <input type="text" name="lastName" placeholder="Last Name" required />
+        </div>
+
+        <input type="email" name="email" placeholder="Contact Email" required />
+        
+        <select name="requestType" required>
+          <option value="">-- Select Request Type --</option>
+          <option>Project Quote</option>
+          <option>General Inquiry</option>
+          <option>Partnership Opportunity</option>
+          <option>Customer Support</option>
+        </select>
+
+        <textarea name="reason" rows="5" placeholder="Please describe your request or reason..." required></textarea>
+
+        <button type="submit" class="btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
